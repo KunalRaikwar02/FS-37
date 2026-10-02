@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+
+}
+
+div{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: fuchsia;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.meen{
+    background-color: mediumseagreen;
+}
+
